@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: sans-serif;
   
 }
 
@@ -15,6 +16,13 @@ align-items: center;
 list-style: none;
 color:#a3a3a3;
 padding:0px 300px ;
+font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.unordered-list-header li{
+    font-size:13px;
+    color:#b6b6b7;
 }
 
 .header-2{
@@ -28,7 +36,61 @@ padding:0px 300px ;
 
 .header-2-link{
     text-decoration: none;
-    font-family: sans-serif;
     color:#5396db;
 }
 
+.header-3-text{
+    text-align: center;
+padding-top:20px;
+padding-bottom:10px;
+}
+
+section{
+    padding-top:40px;
+
+}
+
+.section-text-header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+footer{
+    background-color: #f5f5f7;
+}
+
+.footer-top{
+  
+    color:#8d8d92;
+    padding:30px 300px 0px 300px;
+    font-size: 12px;
+}
+
+hr{
+    padding-top:30px;
+    opacity: 0.23;
+}
+
+.footer-middle{
+    display:grid;
+    grid-auto-flow: column;
+    padding:30px 300px 0px 300px;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul p{
+    color:#454547;
+    padding-bottom:8px;
+}
+
+ul li{
+    font-size: 15px;
+    padding-bottom:6.5px;
+    color:#8b8b8e;
+    
+}
