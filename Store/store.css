@@ -43,13 +43,14 @@ font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helv
     height: 250px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding:50px 0px 0px 200px
+    padding:50px 0px 0px 360px
 
 }
 
 .section-1-chat{
     display: grid;
 grid-template-columns:auto 1fr;
+padding-top:30px;
 
 }
 
@@ -60,6 +61,162 @@ grid-template-columns:auto 1fr;
     color:grey;
 }
 
+.section-1-chat{
+    padding-left:60px;
+}
+
 .section-1-chat-photo img{
     border-radius:50px;
+}
+
+.section-1-chat-text-first a{
+    text-decoration: none;
+    
+}
+.section-1-chat-text-first a:hover{
+    color:rgb(124, 124, 240);
+}
+
+.section-two{
+    background-color: #f5f5f7; 
+    padding-left:350px;
+    padding-top:15px;
+   
+}
+
+.big-cards{
+    background-color: #f5f5f7;
+}
+
+.big-cards h1{
+    text-align: center;
+    padding-top:70px;
+    padding-bottom:30px;
+}
+
+.big-cards strong{
+    color:#707075;
+}
+
+.big-cards .first-card{
+border:1px ; 
+width: 410px;
+
+border-radius: 20px;
+background-color:white
+}
+
+.big-cards .first-card:hover{
+    transform:scale(1.1);
+}
+
+.first-card p {
+    padding:30px 100px 20px 40px;
+    color:#707075;
+    /* text-decoration: none; */
+}
+
+.big-cards a{
+    text-decoration: none;
+}
+
+.first-card h4{
+    padding:0px 0px 20px 40px;
+    font-size:30px;
+    color:black;
+}
+
+.first-card h6{
+    padding:0px 0px 20px 40px;
+    font-size:15px;
+    color:#707075;
+}
+
+
+
+
+
+
+.big-cards .second-card{
+    border:1px ; 
+    width: 410px;
+    
+    border-radius: 20px;
+    background-color:white
+    }
+
+    .big-cards .second-card:hover{
+        transform: scale(1.1);
+
+    }
+    
+    .second-card p{
+        padding:30px 100px 20px 40px;
+        color:#707075;
+    }
+    
+    .second-card h4{
+        padding:0px 0px 20px 40px;
+        font-size:30px;
+        color:black;
+    }
+    
+    .second-card h6{
+        padding:0px 0px 20px 40px;
+        font-size:15px;
+        color:#707075;
+    }
+
+
+
+
+
+
+
+
+    .big-cards .third-card{
+        border:1px ; 
+        width: 410px;
+        
+        border-radius: 20px;
+        background-color:black;
+        }
+
+        .big-cards .third-card:hover{
+            transform: scale(1.1);
+    
+        }
+        
+        .third-card p{
+            padding:30px 100px 20px 40px;
+            color:white;
+        }
+        
+        .third-card h4{
+            padding:0px 0px 20px 40px;
+            font-size:30px;
+            color:white;
+        }
+        
+        .third-card h6{
+            padding:0px 0px 20px 40px;
+            font-size:15px;
+            color:white;
+        }
+
+
+        .big-cards{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-top:60px;
+        }
+
+.palidhje{
+background-color:#f5f5f7;
+text-align: center;
+padding-top:90px;
+
+}
+strong{
+    color:#808080;
 }
