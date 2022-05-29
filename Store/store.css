@@ -268,3 +268,76 @@ strong{
 transform:scale(1.1);
 
 }
+
+.apple-difference{
+    text-align: center;
+    padding-top:50px;
+    background-color:#f5f5f7; 
+}
+
+
+
+
+
+
+.four-cards{
+    background-color:#f5f5f7; 
+    padding-top:50px;
+
+
+}
+
+.purple-card{
+    border:1px solid;
+    border-radius:20px;
+    width: 330px;
+    height: 230px;
+    background-color: white;
+    border:none;
+}
+
+.h3-purple{
+    font-size:28px;
+}
+
+.purple-card-text{
+    color:#ac39ff;
+    padding:0px 15px 15px 1px;
+}
+
+.material-symbols-outlined  {
+    color:#ac39ff;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+
+.green-card{
+    border:1px solid;
+    border-radius:20px;
+    width: 330px;
+    height: 230px;
+    background-color: white;
+    border:none;
+}
+
+.green-card-text{
+    color:#68cc45;
+}
+
+.green-card img{
+    color:#68cc45;
+    padding-top:25px;
+    padding-left:10px;
+}
+
+.h3-green{
+    font-size:28px;
+    padding-top:40px;
+    padding-left:20px;
+}
+
+.four-cards{
+    display:grid;
+    grid-auto-flow: column;
+}
