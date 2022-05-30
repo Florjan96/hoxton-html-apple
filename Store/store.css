@@ -11,11 +11,12 @@
 display: grid;
 grid-auto-flow: column;
 background-color:  #313132;
-height:35px;
+/* height:35px; */
 align-items: center;
+
 list-style: none;
 color:#a3a3a3;
-padding:0px 300px ;
+padding:0px 300px  ;
 font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
 }
@@ -24,11 +25,19 @@ font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helv
     font-size:13px;
     color:#b6b6b7;
     text-decoration: none;
+    /* padding-top:40px */
 }
 
 .unordered-list-header li a:hover{
     color:#e2e2e7;
 }
+
+.header .apple-logo{
+    width:20px;
+    filter:invert(0.8);
+}
+
+
 
 .header-2{
     background-color:#fff;
@@ -306,10 +315,17 @@ transform:scale(1.1);
 }
 
 .material-symbols-outlined  {
-    color:#ac39ff;
-    padding-top:15px;
+  font-size:30px !important;  
+    /* color:#ac39ff; */
+padding-top:15px;
     padding-bottom:15px;
 }
+
+
+.purple-card:hover{
+    transform: scale(1.1);
+}
+
 
 
 .green-card{
@@ -337,7 +353,48 @@ transform:scale(1.1);
     padding-left:20px;
 }
 
+.green-card:hover{
+    transform: scale(1.1);
+}
+
+
+
+
 .four-cards{
     display:grid;
     grid-auto-flow: column;
+}
+
+
+
+
+.blue-card{
+    border:1px solid;
+    border-radius:20px;
+    width: 330px;
+    height: 230px;
+    background-color: white;
+    border:none;
+}
+
+.blue-card-text{
+    color:#3f6eb8;
+}
+
+
+.h3-blue{
+    font-size:28px;
+    padding-top:40px;
+    padding-left:20px;
+}
+
+.blue-card img{
+    color:#68cc45;
+    padding-top:25px;
+    padding-left:10px;
+}
+
+
+.blue-card:hover{
+    transform: scale(1.1);
 }
