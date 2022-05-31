@@ -7,6 +7,19 @@
 }
 
 
+/* .unordered-list-header{
+    position:fixed;
+    top:0;
+    width:100%;
+} */
+
+
+
+
+
+
+
+
 .unordered-list-header{
 display: grid;
 grid-auto-flow: column;
@@ -16,7 +29,7 @@ align-items: center;
 
 list-style: none;
 color:#a3a3a3;
-padding:0px 300px  ;
+padding:0px 200px  ;
 font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
 }
@@ -43,7 +56,7 @@ font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helv
     background-color:#fff;
     text-align:center;
     height:50px;
-   padding-top:14px;
+   padding-top:34px;
 }
 
 
@@ -397,4 +410,52 @@ padding-top:15px;
 
 .blue-card:hover{
     transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #f5f5f7;
+}
+
+.footer-top{
+  
+    color:#8d8d92;
+    padding:55px 300px 0px 300px;
+    font-size: 12px;
+}
+
+hr{
+    padding-top:30px;
+    opacity: 0.23;
+}
+
+.footer-middle{
+    display:grid;
+    grid-auto-flow: column;
+    padding:30px 300px 0px 300px;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul p{
+    color:#454547;
+    padding-bottom:8px;
+}
+
+ul li{
+    font-size: 15px;
+    padding-bottom:6.5px;
+    color:#8b8b8e;
+    
 }
